@@ -38,11 +38,13 @@ pip-selfcheck.json
 
 # uploaded images/files #
 #########################
-media_cdn/.*
+media_cdn/*
+!media_cdn/.gitkeep
 
 # static_cdn files #
 ####################
-static_cdn/.*
+static_cdn/*
+!static_cdn/.gitkeep
 
 # django files #
 ################
